@@ -9,3 +9,8 @@ Author URI: http://wp-funnel
 License: GPLv2 or later
 Text Domain: cleverpopups
 */
+
+function cpopups_add_shortcode(){
+	echo "Hello";
+}
+add_shortcode('clever_popup','cpopups_add_shortcode');
